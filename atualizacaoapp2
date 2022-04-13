@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.1",
-  "ReleaseNotes": "",
+  "Version": "2.0.1",
+  "ReleaseNotes": "VELOCIDADE MELHORAR NA OPÇÃO CLARO SEM PROMOÇÃO",
   "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/atualizacaoapp2",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
   "EmailFeedback": "@gmail.com",
@@ -109,9 +109,9 @@
     {
       "Name": "CLARO SEM PROMOÇÃO",
       "FLAG": "tim",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET wss://fozrioclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "fozrioclaro.com.br",
+      "TlsIP": "fozrioclaro.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
