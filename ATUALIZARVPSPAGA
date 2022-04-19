@@ -1,12 +1,6 @@
 {
-  "Version": "4.5.0",
-  "ReleaseNotes": "🔰 ATUALIZAÇÃO 🔰
-
-• ADICIONADO MAIS 2 SERVIDORES.
-
-• MELHORA  PARA JOGO E CHAMADA DE VÍDEO.
-
-• CORREÇÃO NAS CONFIGURAÇÕES DAS OPERADORAS.",
+  "Version": "8.0.1",
+  "ReleaseNotes": "SO ATUALIZAR SE NÃO ESTIVER FUNCIONANDO",
   "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/ATUALIZARVPSPAGA",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
   "EmailFeedback": "@gmail.com",
@@ -14,22 +8,12 @@
   "UrlTermos": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/termosdeuso.html",
   "Udp": [
     {
-      "Porta": "7300"
+      "Porta": "7300" 
     }
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR NETOLLY",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "proxy.matheus22.tk",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR BOT",
+      "Name": "SERVIDOR (BR01)",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vps.matheussh.tk",
@@ -37,17 +21,7 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    },
-    {
-      "Name": "SERVIDOR WEB",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "luffyelbrabo.xyz",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    }        
+    }
   ],
   "Networks": [
     {
@@ -61,16 +35,6 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO",
-      "FLAG": "tim",
-      "Payload": "GET wss://fozrioclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "fozrioclaro.com.br",
-      "TlsIP": "fozrioclaro.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"       
-    },
-    {
       "Name": "VIVO",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
@@ -79,16 +43,6 @@
       "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Direct"
-    },
-    {
-      "Name": "VIVO",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.19.94",
-      "ProxyIP": "104.16.19.94",
-      "ProxyPort": "80",
-      "Info": "Proxy"
     },
     {
       "Name": "TIM - VIVO",
@@ -111,7 +65,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO - TIM",
+      "Name": "VIVO | TIM",
       "FLAG": "vivo",
       "Payload": "GET ssl://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
@@ -121,11 +75,31 @@
       "Info": "Proxy"
     },
     {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "104.16.19.94",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
       "Name": "TIM",
       "FLAG": "tim",
       "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO SEM PROMOÇÃO",
+      "FLAG": "tim",
+      "Payload": "GET wss://fozrioclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "fozrioclaro.com.br",
+      "TlsIP": "fozrioclaro.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
