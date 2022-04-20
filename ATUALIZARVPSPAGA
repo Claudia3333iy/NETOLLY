@@ -96,8 +96,18 @@
     },
     {
       "Name": "CLARO SEM PROMOÇÃO",
-      "FLAG": "tim",
+      "FLAG": "claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO",
+      "FLAG": "claro",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "content.akross.com.br",
       "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
