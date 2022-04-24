@@ -1,6 +1,6 @@
 {
-  "Version": "7.0.1",
-  "ReleaseNotes": "CORREÇÃO NA OPÇÃO VIVO NETOLLY",
+  "Version": "8.0.1",
+  "ReleaseNotes": "CORREÇÃO NO SERVIDOR",
   "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/ATUALIZARVPSPAGA",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
   "EmailFeedback": "@gmail.com",
@@ -28,7 +28,7 @@
       "Name": "SERVIDOR (BR01)",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "vps.matheussh.tk",
+      "ServerIP": "proxy.matheus22.tk",
       "CheckUser": "/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
