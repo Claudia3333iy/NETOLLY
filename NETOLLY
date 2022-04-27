@@ -1,12 +1,11 @@
 {
-  "Version": "6.4.1",
-  "ReleaseNotes": "NOVO OPÇÕES DA CLARO ADICIONADA",
+  "Version": "7.4.1",
+  "ReleaseNotes": "NOVO OPÇÃO DA CLARO ADICIONADA",
   "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/NETOLLY/main/NETOLLY",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
   "EmailFeedback": "@gmail.com",
   "UrlContato": "https://t.me/NETOLLY",
   "UrlTermos": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/termosdeuso.html",
-  "CheckUser": "true",
   "Udp": [
     {
       "Porta": "7300"
@@ -30,7 +29,6 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "proxy.matheus22.tk",
-      "CheckUser": "/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
