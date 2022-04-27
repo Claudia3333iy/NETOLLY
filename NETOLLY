@@ -1,14 +1,18 @@
 {
-  "Version": "2.0.0",
-  "ReleaseNotes": "CORREÇÃO NA OPERADORA CLARO NETOLLY & CLARO NET",
-  "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/ATUALIZARVPSPAGA",
+  "Version": "6.4.1",
+  "ReleaseNotes": "NOVO OPÇÕES DA CLARO ADICIONADA",
+  "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/NETOLLY/main/NETOLLY",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
   "EmailFeedback": "@gmail.com",
   "UrlContato": "https://t.me/NETOLLY",
   "UrlTermos": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/termosdeuso.html",
-   "Udp": [
+  "CheckUser": "true",
+  "Udp": [
     {
       "Porta": "7300"
+    },
+    {
+      "Porta": "7200"
     },
     {
       "Porta": "7400"
@@ -17,10 +21,7 @@
       "Porta": "7500"
     },
     {
-      "Porta": "7600"
-    },
-    {
-      "Porta": "7700"
+      "Porta": "7100"
     }
   ],
   "Servers": [
