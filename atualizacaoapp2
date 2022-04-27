@@ -1,12 +1,13 @@
 {
-  "Version": "6.0.0",
-  "ReleaseNotes": "CORREÇÃO NA OPERADORA CLARO NETOLLY & CLARO NET",
-  "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/atualizacaoapp2",
+  "Version": "10.0.1",
+  "ReleaseNotes": "NOVO OPÇÕES DA CLARO ADICIONADA",
+  "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/NETOLLY/main/ATUALIZARVPSPAGA",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
   "EmailFeedback": "@gmail.com",
   "UrlContato": "https://t.me/NETOLLY",
   "UrlTermos": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/termosdeuso.html",
-   "Udp": [
+  "CheckUser": "true",
+  "Udp": [
     {
       "Porta": "7300"
     },
@@ -37,7 +38,7 @@
     }
   ],
   "Networks": [
-   {
+    {
       "Name": "VIVO - CLARO - TIM - OI",
       "FLAG": "vivo",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
@@ -128,4 +129,4 @@
       "Info": "Tlsws"
     }
   ]
-} 
+}
