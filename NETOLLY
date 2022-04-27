@@ -1,6 +1,6 @@
 {
-  "Version": "9.0.1",
-  "ReleaseNotes": "CORREÇÃO NA OPERADORA CLARO NETOLLY & OI",
+  "Version": "2.0.0",
+  "ReleaseNotes": "CORREÇÃO NA OPERADORA CLARO NETOLLY & CLARO NET",
   "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/ATUALIZARVPSPAGA",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
   "EmailFeedback": "@gmail.com",
@@ -103,6 +103,16 @@
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf],
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO NET",
+      "FLAG": "claro",
+      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: ws[crlf][crlf],
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
