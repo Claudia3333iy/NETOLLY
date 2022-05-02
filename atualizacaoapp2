@@ -1,6 +1,6 @@
 {
-  "Version": "25.5.7",
-  "ReleaseNotes": "CORREÇÃO NA VIVO",
+  "Version": "25.5.8",
+  "ReleaseNotes": "CORREÇÃO NA OPÇÃO UNIVERSAL E VIVO",
   "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/atualizacaoapp2",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
   "EmailFeedback": "@gmail.com",
@@ -25,7 +25,17 @@
   ],
   "Networks": [
     {
-      "Name": "UNIVERSAL TLSWS",
+      "Name": "UNIVERSAL TLSWS 01",
+      "FLAG": "vivo",
+      "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "104.16.56.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "UNIVERSAL TLSWS 02",
       "FLAG": "vivo",
       "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
