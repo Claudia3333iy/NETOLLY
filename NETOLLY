@@ -1,6 +1,6 @@
 {
-  "Version": "25.5.9",
-  "ReleaseNotes": "CORAÇÃO NAS CONFIGURAÇÕES DAS OPERADORAS",
+  "Version": "25.6.1",
+  "ReleaseNotes": "CORAÇÃO NA CLARO AKROSS",
   "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/NETOLLY/main/NETOLLY",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
   "EmailFeedback": "@gmail.com",
@@ -117,11 +117,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO MOBILIDADE",
+      "Name": "CLARO AKROSS",
       "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
