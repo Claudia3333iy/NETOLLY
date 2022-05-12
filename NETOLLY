@@ -1,5 +1,5 @@
 {
-  "Version": "25.7.0",
+  "Version": "25.7.5",
   "ReleaseNotes": "CORAÇÃO NA CLARO ATENDIMENTO",
   "UrlUpdate": "https://raw.githubusercontent.com/Claudia3333iy/NETOLLY/main/NETOLLY",
   "Sms": "https://raw.githubusercontent.com/Claudia3333iy/atualizacao/main/notificacao",
@@ -110,9 +110,9 @@
       "Name": "CLARO ATENDIMENTO",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "atendimento.descomplica.com.br",
-      "ProxyIP": "no.descomplica.com.br",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
